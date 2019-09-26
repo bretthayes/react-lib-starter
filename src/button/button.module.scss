@@ -1,0 +1,13 @@
+.root {
+  appearance: none;
+  padding: 10px 50px;
+  color: #fff;
+  background: #3cb4e5;
+  border: 1px solid #3cb4e5;
+  border-radius: 4px;
+  transition: .2s ease-in-out;
+  &:hover {
+    background: darken(#3cb4e5, 20%);
+    border-color: darken(#3cb4e5, 20%);
+  }
+}
